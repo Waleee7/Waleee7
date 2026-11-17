@@ -10,8 +10,8 @@ I ship to production URLs instead of demo folders: every project with a live lin
 
 | | Live | What it is |
 |---|---|---|
-| **SECTOR** | [sector-ochre.vercel.app](https://sector-ochre.vercel.app) · [source](https://github.com/Waleee7/sector) | Release velocity, angle, height and Rule 32 legal distance for the throwing events, recovered from **one phone camera** in the browser. RANSAC trajectory fitting against a projectile model. Validated against seven real world-record marks. 54 tests. |
-| **ThrowingTracker** | [throwing-tracker.vercel.app](https://throwing-tracker.vercel.app) · [source](https://github.com/Waleee7/ThrowingTracker) | Training and film-study platform for throwers: session logging, PR tracking, progress charts, and frame-stepping video annotation with a live angle readout. Offline-first on IndexedDB so athletes can log at fields with no signal. 107 tests. |
+| **SECTOR** | [sector-ochre.vercel.app](https://sector-ochre.vercel.app) · [source](https://github.com/Waleee7/sector) | Release velocity, angle, height and Rule 32 legal distance for the throwing events, recovered from **one phone camera** in the browser. RANSAC trajectory fitting against an aerodynamic flight model. Accuracy-tested on synthetic throws with known answers, and checked against six published world-record and championship marks. 58 tests. |
+| **ThrowingTracker** | [throwing-tracker.vercel.app](https://throwing-tracker.vercel.app) · [source](https://github.com/Waleee7/ThrowingTracker) | Training and film-study platform for throwers: session logging, PR tracking, progress charts, and frame-stepping video annotation with a live angle readout. Data stays on the device (localStorage + IndexedDB), no account needed. 107 tests. |
 | **DISCUS DISASTER** | [discus-disaster.vercel.app](https://discus-disaster.vercel.app) · [source](https://github.com/Waleee7/discus-disaster) | A 3D discus throw with real aerodynamics, a savage announcer and phone haptics. Five throwing techniques, two venues, weather, and a Daily Throw where everyone gets the same wind. |
 | **trackside** | Python · [source](https://github.com/Waleee7/trackside) | Sprint finish timing and implement flight (release speed, angle, height, predicted distance) from a single camera, with an error bar on every number. Validated on synthetic scenes with known answers. |
 
@@ -37,7 +37,7 @@ I ship to production URLs instead of demo folders: every project with a live lin
 |---|---|---|
 | **RAGDOLL RIOT** | [ragdoll-riot.vercel.app](https://ragdoll-riot.vercel.app) · [source](https://github.com/Waleee7/ragdoll-riot) | A stickman ragdoll brawler that plays in the browser: combos, live electric ropes, shield guys, a boss every 5th wave and a RIOT super, with touch controls. Holds 60fps with a dozen ragdolls on screen. Plain HTML/CSS/JS, zero dependencies, 50 browser checks. |
 | **PEACH DASH** | [peach-dash.vercel.app](https://peach-dash.vercel.app) · [source](https://github.com/Waleee7/peach-dash) | A 3D endless runner through Atlanta, in the browser with no game engine: power-ups, trains, geese and a tested simulation core. Vite, TypeScript, three.js. |
-| **Skyline Arena** | [skyline-arena.vercel.app](https://skyline-arena.vercel.app) · [source](https://github.com/Waleee7/skyline-arena) | A neon-Tokyo WebGL arena where my projects play on jumbotrons. Vanilla Three.js via importmap: **no bundler, no framework, no `package.json`.** |
+| **Skyline Arena** | [skyline-arena.vercel.app](https://skyline-arena.vercel.app) · [source](https://github.com/Waleee7/skyline-arena) | A 3D stadium portfolio where live sites play on clickable jumbotrons. The live site is a React Three Fiber build; the repo holds the vanilla Three.js version (importmap, **no build step**). |
 
 ### Learning
 
