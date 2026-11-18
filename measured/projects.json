@@ -1,0 +1,94 @@
+{
+  "owner": "Waleee7",
+  "projects": [
+    {
+      "slug": "sector",
+      "name": "SECTOR",
+      "repo": "Waleee7/sector",
+      "url": "https://sector-ochre.vercel.app",
+      "tests": {
+        "count": 58,
+        "measured": "2026-11-16",
+        "suite": "Vitest tests, all passing, tsc clean"
+      }
+    },
+    {
+      "slug": "throwingtracker",
+      "name": "ThrowingTracker",
+      "repo": "Waleee7/ThrowingTracker",
+      "url": "https://throwing-tracker.vercel.app",
+      "tests": {
+        "count": 107,
+        "measured": "2026-11-16",
+        "suite": "Vitest tests, all passing"
+      }
+    },
+    {
+      "slug": "discus-disaster",
+      "name": "DISCUS DISASTER",
+      "repo": "Waleee7/discus-disaster",
+      "url": "https://discus-disaster.vercel.app",
+      "tests": {
+        "count": 53,
+        "measured": "2026-11-16",
+        "suite": "unit tests, all passing, plus a Playwright smoke test at 4 viewports"
+      }
+    },
+    {
+      "slug": "dare-check",
+      "name": "DARE CHECK",
+      "repo": "Waleee7/dare-check",
+      "url": "https://dare-check.vercel.app",
+      "tests": {
+        "count": 115,
+        "measured": "2026-11-16",
+        "suite": "unit tests, all passing, plus 70 of 70 browser checks on Nov 17, 2026"
+      }
+    },
+    {
+      "slug": "options-lab",
+      "name": "Options Lab",
+      "repo": "Waleee7/options-trading-course",
+      "url": "https://optionstradingcourse.vercel.app",
+      "tests": {
+        "count": 113,
+        "measured": "2026-11-17",
+        "suite": "Vitest tests, all passing, plus 1,720 of 1,720 browser checks on Chromium, WebKit and Firefox"
+      }
+    },
+    {
+      "slug": "peach-dash",
+      "name": "PEACH DASH",
+      "repo": "Waleee7/peach-dash",
+      "url": "https://peach-dash.vercel.app",
+      "tests": {
+        "count": 51,
+        "measured": "2026-11-17",
+        "suite": "Vitest tests, all passing, plus 25 of 25 real-browser checks"
+      }
+    },
+    {
+      "slug": "ragdoll-riot",
+      "name": "RAGDOLL RIOT",
+      "repo": "Waleee7/ragdoll-riot",
+      "url": "https://ragdoll-riot.vercel.app",
+      "tests": {
+        "count": 369,
+        "measured": "2026-11-17",
+        "flaky": 1,
+        "suite": "browser checks (17 verify, 33 features, 239 stages, 52 real-play, 28 moves), all passing in that run; one, “a kick breaks the guard”, fails intermittently"
+      }
+    },
+    {
+      "slug": "globallingo",
+      "name": "GlobalLingo",
+      "repo": "Waleee7/GlobalLingo",
+      "url": "https://global-lingo.vercel.app",
+      "tests": {
+        "count": 25,
+        "measured": "2026-11-17",
+        "suite": "node:test tests, all passing"
+      }
+    }
+  ]
+}

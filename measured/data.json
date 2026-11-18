@@ -1,0 +1,111 @@
+{
+  "at": "2026-11-18T01:57:20.157Z",
+  "runner": "local",
+  "lighthouse": null,
+  "rows": [
+    {
+      "slug": "sector",
+      "live": {
+        "up": true,
+        "ms": 109
+      },
+      "stars": 0,
+      "pushedAt": "2026-11-17T02:26:02Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "throwingtracker",
+      "live": {
+        "up": true,
+        "ms": 116
+      },
+      "stars": 1,
+      "pushedAt": "2026-11-17T02:31:15Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "discus-disaster",
+      "live": {
+        "up": true,
+        "ms": 93
+      },
+      "stars": 0,
+      "pushedAt": "2026-11-17T02:35:06Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "dare-check",
+      "live": {
+        "up": true,
+        "ms": 108
+      },
+      "stars": 1,
+      "pushedAt": "2026-11-17T14:29:13Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "options-lab",
+      "live": {
+        "up": true,
+        "ms": 116
+      },
+      "stars": 2,
+      "pushedAt": "2026-11-18T01:32:05Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "peach-dash",
+      "live": {
+        "up": true,
+        "ms": 138
+      },
+      "stars": 1,
+      "pushedAt": "2026-11-17T12:14:31Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "ragdoll-riot",
+      "live": {
+        "up": true,
+        "ms": 94
+      },
+      "stars": 1,
+      "pushedAt": "2026-11-17T14:28:06Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    },
+    {
+      "slug": "globallingo",
+      "live": {
+        "up": true,
+        "ms": 103
+      },
+      "stars": 1,
+      "pushedAt": "2026-11-17T14:26:39Z",
+      "lighthouse": {
+        "perf": null,
+        "a11y": null
+      }
+    }
+  ]
+}

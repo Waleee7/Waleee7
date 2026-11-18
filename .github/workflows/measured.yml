@@ -1,0 +1,46 @@
+name: Measured
+
+# Re-measures the MEASURED scoreboard on the profile README once a day.
+# measured/build.mjs has no dependencies; Lighthouse runs through npx at a pinned version.
+
+on:
+  schedule:
+    - cron: '37 11 * * *' # daily at 11:37 UTC (6:37 am ET in winter, 7:37 am in summer)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: measured
+  cancel-in-progress: false
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+
+      - name: Measure and render
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node measured/build.mjs --lighthouse
+
+      - name: Commit only if the output changed
+        run: |
+          git add README.md measured
+          if git diff --cached --quiet; then
+            echo "No change, nothing to commit."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "measured: scoreboard as of $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
+          git push
