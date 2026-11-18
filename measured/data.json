@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-18T01:58:21.484Z",
+  "at": "2026-11-18T19:33:11.275Z",
   "runner": "github-actions",
   "lighthouse": "lighthouse@13.6.0",
   "rows": [
@@ -7,12 +7,12 @@
       "slug": "sector",
       "live": {
         "up": true,
-        "ms": 45
+        "ms": 209
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:26:02Z",
       "lighthouse": {
-        "perf": 80,
+        "perf": 73,
         "a11y": 97
       }
     },
@@ -20,7 +20,7 @@
       "slug": "throwingtracker",
       "live": {
         "up": true,
-        "ms": 34
+        "ms": 200
       },
       "stars": 1,
       "pushedAt": "2026-11-17T02:31:15Z",
@@ -33,12 +33,12 @@
       "slug": "discus-disaster",
       "live": {
         "up": true,
-        "ms": 32
+        "ms": 216
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:35:06Z",
       "lighthouse": {
-        "perf": 48,
+        "perf": 46,
         "a11y": 100
       }
     },
@@ -46,7 +46,7 @@
       "slug": "dare-check",
       "live": {
         "up": true,
-        "ms": 30
+        "ms": 190
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:29:13Z",
@@ -59,7 +59,7 @@
       "slug": "options-lab",
       "live": {
         "up": true,
-        "ms": 58
+        "ms": 234
       },
       "stars": 2,
       "pushedAt": "2026-11-18T01:32:05Z",
@@ -72,12 +72,12 @@
       "slug": "peach-dash",
       "live": {
         "up": true,
-        "ms": 36
+        "ms": 189
       },
       "stars": 1,
       "pushedAt": "2026-11-17T12:14:31Z",
       "lighthouse": {
-        "perf": 38,
+        "perf": 46,
         "a11y": 76
       }
     },
@@ -85,7 +85,7 @@
       "slug": "ragdoll-riot",
       "live": {
         "up": true,
-        "ms": 21
+        "ms": 164
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:28:06Z",
@@ -98,12 +98,12 @@
       "slug": "globallingo",
       "live": {
         "up": true,
-        "ms": 21
+        "ms": 219
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:26:39Z",
       "lighthouse": {
-        "perf": 64,
+        "perf": 70,
         "a11y": 100
       }
     }
