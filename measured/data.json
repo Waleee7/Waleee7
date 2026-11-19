@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-18T19:33:11.275Z",
+  "at": "2026-11-19T19:36:57.215Z",
   "runner": "github-actions",
   "lighthouse": "lighthouse@13.6.0",
   "rows": [
@@ -7,7 +7,7 @@
       "slug": "sector",
       "live": {
         "up": true,
-        "ms": 209
+        "ms": 139
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:26:02Z",
@@ -20,7 +20,7 @@
       "slug": "throwingtracker",
       "live": {
         "up": true,
-        "ms": 200
+        "ms": 145
       },
       "stars": 1,
       "pushedAt": "2026-11-17T02:31:15Z",
@@ -33,7 +33,7 @@
       "slug": "discus-disaster",
       "live": {
         "up": true,
-        "ms": 216
+        "ms": 93
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:35:06Z",
@@ -46,7 +46,7 @@
       "slug": "dare-check",
       "live": {
         "up": true,
-        "ms": 190
+        "ms": 117
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:29:13Z",
@@ -59,12 +59,12 @@
       "slug": "options-lab",
       "live": {
         "up": true,
-        "ms": 234
+        "ms": 147
       },
       "stars": 2,
       "pushedAt": "2026-11-18T01:32:05Z",
       "lighthouse": {
-        "perf": 100,
+        "perf": 91,
         "a11y": 99
       }
     },
@@ -72,7 +72,7 @@
       "slug": "peach-dash",
       "live": {
         "up": true,
-        "ms": 189
+        "ms": 87
       },
       "stars": 1,
       "pushedAt": "2026-11-17T12:14:31Z",
@@ -85,7 +85,7 @@
       "slug": "ragdoll-riot",
       "live": {
         "up": true,
-        "ms": 164
+        "ms": 76
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:28:06Z",
@@ -98,12 +98,12 @@
       "slug": "globallingo",
       "live": {
         "up": true,
-        "ms": 219
+        "ms": 106
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:26:39Z",
       "lighthouse": {
-        "perf": 70,
+        "perf": 64,
         "a11y": 100
       }
     }
