@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-20T19:14:40.442Z",
+  "at": "2026-11-21T18:10:18.559Z",
   "runner": "github-actions",
   "lighthouse": "lighthouse@13.6.0",
   "rows": [
@@ -7,12 +7,12 @@
       "slug": "sector",
       "live": {
         "up": true,
-        "ms": 195
+        "ms": 128
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:26:02Z",
       "lighthouse": {
-        "perf": 69,
+        "perf": 72,
         "a11y": 97
       }
     },
@@ -20,12 +20,12 @@
       "slug": "throwingtracker",
       "live": {
         "up": true,
-        "ms": 295
+        "ms": 114
       },
       "stars": 1,
-      "pushedAt": "2026-11-20T14:32:11Z",
+      "pushedAt": "2026-11-21T17:10:24Z",
       "lighthouse": {
-        "perf": 94,
+        "perf": 96,
         "a11y": 95
       }
     },
@@ -33,7 +33,7 @@
       "slug": "discus-disaster",
       "live": {
         "up": true,
-        "ms": 214
+        "ms": 67
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:35:06Z",
@@ -46,7 +46,7 @@
       "slug": "dare-check",
       "live": {
         "up": true,
-        "ms": 190
+        "ms": 70
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:29:13Z",
@@ -59,12 +59,12 @@
       "slug": "options-lab",
       "live": {
         "up": true,
-        "ms": 224
+        "ms": 66
       },
       "stars": 2,
       "pushedAt": "2026-11-18T01:32:05Z",
       "lighthouse": {
-        "perf": 83,
+        "perf": 87,
         "a11y": 99
       }
     },
@@ -72,12 +72,12 @@
       "slug": "peach-dash",
       "live": {
         "up": true,
-        "ms": 219
+        "ms": 67
       },
       "stars": 1,
       "pushedAt": "2026-11-17T12:14:31Z",
       "lighthouse": {
-        "perf": 41,
+        "perf": 38,
         "a11y": 76
       }
     },
@@ -85,12 +85,12 @@
       "slug": "ragdoll-riot",
       "live": {
         "up": true,
-        "ms": 102
+        "ms": 121
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:28:06Z",
       "lighthouse": {
-        "perf": 99,
+        "perf": 100,
         "a11y": 100
       }
     },
@@ -98,7 +98,7 @@
       "slug": "globallingo",
       "live": {
         "up": true,
-        "ms": 231
+        "ms": 60
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:26:39Z",
