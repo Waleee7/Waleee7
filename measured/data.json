@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-26T20:29:44.964Z",
+  "at": "2026-11-27T20:16:22.227Z",
   "runner": "github-actions",
   "lighthouse": "lighthouse@13.6.0",
   "rows": [
@@ -7,12 +7,12 @@
       "slug": "sector",
       "live": {
         "up": true,
-        "ms": 263
+        "ms": 112
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:26:02Z",
       "lighthouse": {
-        "perf": 80,
+        "perf": 72,
         "a11y": 97
       }
     },
@@ -20,7 +20,7 @@
       "slug": "throwingtracker",
       "live": {
         "up": true,
-        "ms": 149
+        "ms": 116
       },
       "stars": 1,
       "pushedAt": "2026-11-21T17:10:24Z",
@@ -33,20 +33,20 @@
       "slug": "discus-disaster",
       "live": {
         "up": true,
-        "ms": 116
+        "ms": 51
       },
       "stars": 0,
       "pushedAt": "2026-11-17T02:35:06Z",
       "lighthouse": {
-        "perf": 47,
-        "a11y": 100
+        "perf": null,
+        "a11y": null
       }
     },
     {
       "slug": "dare-check",
       "live": {
         "up": true,
-        "ms": 141
+        "ms": 42
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:29:13Z",
@@ -59,12 +59,12 @@
       "slug": "options-lab",
       "live": {
         "up": true,
-        "ms": 140
+        "ms": 57
       },
       "stars": 2,
       "pushedAt": "2026-11-18T01:32:05Z",
       "lighthouse": {
-        "perf": 95,
+        "perf": 92,
         "a11y": 99
       }
     },
@@ -72,12 +72,12 @@
       "slug": "peach-dash",
       "live": {
         "up": true,
-        "ms": 114
+        "ms": 116
       },
       "stars": 1,
       "pushedAt": "2026-11-17T12:14:31Z",
       "lighthouse": {
-        "perf": 46,
+        "perf": 43,
         "a11y": 76
       }
     },
@@ -85,7 +85,7 @@
       "slug": "ragdoll-riot",
       "live": {
         "up": true,
-        "ms": 107
+        "ms": 34
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:28:06Z",
@@ -98,7 +98,7 @@
       "slug": "globallingo",
       "live": {
         "up": true,
-        "ms": 108
+        "ms": 87
       },
       "stars": 1,
       "pushedAt": "2026-11-17T14:26:39Z",
