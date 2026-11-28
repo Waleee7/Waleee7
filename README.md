@@ -5,23 +5,23 @@ Developer and builder in Atlanta, and an elite discus and hammer thrower at Life
 I ship to production URLs instead of demo folders: every project with a live link below is up and clickable right now. Throwing is where I learned to review my own film honestly, and that habit shows up in what I build: real tests, measured numbers, and error bars.
 
 <!-- MEASURED:START -->
-<a href="https://github.com/Waleee7/Waleee7/actions/workflows/measured.yml"><img src="measured/board.svg" width="840" alt="Measured scoreboard as of Nov 27, 2026, 3:16 PM ET: 8 of 8 live sites up. The same numbers are in the table below."></a>
+<a href="https://github.com/Waleee7/Waleee7/actions/workflows/measured.yml"><img src="measured/board.svg" width="840" alt="Measured scoreboard as of Nov 28, 2026, 2:05 PM ET: 8 of 8 live sites up. The same numbers are in the table below."></a>
 
 <details>
 <summary>The same numbers as a table</summary>
 
-As of Nov 27, 2026, 3:16 PM ET, measured by the daily GitHub Action: live status and response time (median of 3 fresh requests for each page's HTML), Lighthouse mobile performance and accessibility (lighthouse@13.6.0), and stars and last push from the GitHub API. Test counts come from running each project's suite and carry the date they ran. A dash means not measured.
+As of Nov 28, 2026, 2:05 PM ET, measured by the daily GitHub Action: live status and response time (median of 3 fresh requests for each page's HTML), Lighthouse mobile performance and accessibility (lighthouse@13.6.0), and stars and last push from the GitHub API. Test counts come from running each project's suite and carry the date they ran. A dash means not measured.
 
 | Project | Live | Lighthouse perf / a11y | Tests | Last push | Stars |
 |---|---|---|---|---|---|
-| [SECTOR](https://sector-ochre.vercel.app) | Up · 112 ms | 72 / 97 | 58 on Nov 16, 2026: Vitest tests, all passing, tsc clean | 11 days ago | 0 |
-| [ThrowingTracker](https://throwing-tracker.vercel.app) | Up · 116 ms | 97 / 95 | 107 on Nov 16, 2026: Vitest tests, all passing | 6 days ago | 1 |
-| [DISCUS DISASTER](https://discus-disaster.vercel.app) | Up · 51 ms | — | 53 on Nov 16, 2026: unit tests, all passing, plus a Playwright smoke test at 4 viewports | 11 days ago | 0 |
-| [DARE CHECK](https://dare-check.vercel.app) | Up · 42 ms | 99 / 100 | 115 on Nov 16, 2026: unit tests, all passing, plus 70 of 70 browser checks on Nov 17, 2026 | 10 days ago | 1 |
-| [Options Lab](https://optionstradingcourse.vercel.app) | Up · 57 ms | 92 / 99 | 113 on Nov 17, 2026: Vitest tests, all passing, plus 1,720 of 1,720 browser checks on Chromium, WebKit and Firefox | 10 days ago | 2 |
-| [PEACH DASH](https://peach-dash.vercel.app) | Up · 116 ms | 43 / 76 | 51 on Nov 17, 2026: Vitest tests, all passing, plus 25 of 25 real-browser checks | 10 days ago | 1 |
-| [RAGDOLL RIOT](https://ragdoll-riot.vercel.app) | Up · 34 ms | 99 / 100 | 369 on Nov 17, 2026: browser checks (17 verify, 33 features, 239 stages, 52 real-play, 28 moves), all passing in that run; one, “a kick breaks the guard”, fails intermittently | 10 days ago | 1 |
-| [GlobalLingo](https://global-lingo.vercel.app) | Up · 87 ms | 64 / 100 | 25 on Nov 17, 2026: node:test tests, all passing | 10 days ago | 1 |
+| [SECTOR](https://sector-ochre.vercel.app) | Up · 102 ms | 75 / 97 | 58 on Nov 16, 2026: Vitest tests, all passing, tsc clean | 12 days ago | 0 |
+| [ThrowingTracker](https://throwing-tracker.vercel.app) | Up · 70 ms | 97 / 95 | 107 on Nov 16, 2026: Vitest tests, all passing | 7 days ago | 1 |
+| [DISCUS DISASTER](https://discus-disaster.vercel.app) | Up · 72 ms | — | 53 on Nov 16, 2026: unit tests, all passing, plus a Playwright smoke test at 4 viewports | 12 days ago | 0 |
+| [DARE CHECK](https://dare-check.vercel.app) | Up · 59 ms | 99 / 100 | 115 on Nov 16, 2026: unit tests, all passing, plus 70 of 70 browser checks on Nov 17, 2026 | 11 days ago | 1 |
+| [Options Lab](https://optionstradingcourse.vercel.app) | Up · 71 ms | 94 / 99 | 113 on Nov 17, 2026: Vitest tests, all passing, plus 1,720 of 1,720 browser checks on Chromium, WebKit and Firefox | 11 days ago | 2 |
+| [PEACH DASH](https://peach-dash.vercel.app) | Up · 48 ms | 46 / 76 | 51 on Nov 17, 2026: Vitest tests, all passing, plus 25 of 25 real-browser checks | 11 days ago | 1 |
+| [RAGDOLL RIOT](https://ragdoll-riot.vercel.app) | Up · 114 ms | 99 / 100 | 369 on Nov 17, 2026: browser checks (17 verify, 33 features, 239 stages, 52 real-play, 28 moves), all passing in that run; one, “a kick breaks the guard”, fails intermittently | 11 days ago | 1 |
+| [GlobalLingo](https://global-lingo.vercel.app) | Up · 75 ms | 64 / 100 | 25 on Nov 17, 2026: node:test tests, all passing | 11 days ago | 1 |
 
 </details>
 <!-- MEASURED:END -->
